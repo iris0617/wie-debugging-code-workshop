@@ -44,6 +44,7 @@ body {
 }
 
 #centered {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
@@ -98,4 +99,10 @@ body {
   background-image: url('images/facebook.png');
   width: 45px;
   height: 45px;
+}
+
+.socialMediaDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
 }
